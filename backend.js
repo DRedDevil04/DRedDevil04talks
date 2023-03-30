@@ -8,7 +8,7 @@ const home=fs.readFileSync('./Template/Home.html','utf-8');
 const loggedinpage=fs.readFileSync('./Template/loggedinpage.html','utf-8');
 
 var con=mysql.createConnection({
-	host:"localhost",
+	host:"172.20.10.2",
 	user:"devam",
 	password:"Dev@m2904",
 	database: "blogProj"
