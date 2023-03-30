@@ -1,0 +1,26 @@
+{
+  "name": "blogsite",
+  "version": "1.0.0",
+  "description": "version 1 of blog dite dreddevil04talks",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DRedDevil04/DRedDevil04talks.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Devam Desai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DRedDevil04/DRedDevil04talks/issues"
+  },
+  "homepage": "https://github.com/DRedDevil04/DRedDevil04talks#readme",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "query-string": "^8.1.0"
+  }
+}
