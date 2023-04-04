@@ -3,7 +3,7 @@ var http=require('http');
 var fs=require('fs');
 var url=require('url');
 const { parse } = require('querystring');
-
+const PORT = process.env.PORT || 8080;
 const home=fs.readFileSync('./Template/Home.html','utf-8');
 const loggedinpage=fs.readFileSync('./Template/loggedinpage.html','utf-8');
 
@@ -175,7 +175,7 @@ const server=http.createServer((req,res)=>{
 });
 
 
-server.listen(8080,'127.0.0.1',()=>{
+server.listen(PORT,'0.0.0.0',()=>{
 	console.log("Server Started");
 });
 
